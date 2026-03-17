@@ -194,6 +194,14 @@ function Footer() {
               </li>
               <li>
                 <Link
+                  href="/privacy-policy"
+                  className="text-sm text-muted transition-colors hover:text-foreground"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/#faq"
                   className="text-sm text-muted transition-colors hover:text-foreground"
                 >
@@ -294,6 +302,9 @@ function Footer() {
               analytics, no tracking. Your email data never leaves your machine.
             </p>
           </div>
+          <p className="mt-6 text-center text-xs text-muted/40">
+            Gmail is a registered trademark of Google LLC. Gmail Filter Manager is not affiliated with, endorsed by, or sponsored by Google.
+          </p>
         </div>
       </div>
     </footer>
