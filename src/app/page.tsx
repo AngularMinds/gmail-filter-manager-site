@@ -503,7 +503,7 @@ export default function Home() {
       {/* ────── Hero ────── */}
       <section
         id="hero"
-        className="relative overflow-hidden px-6 pb-24 pt-20 sm:pt-28 lg:pt-36"
+        className="relative overflow-hidden px-6 pb-24 pt-10 sm:pt-14 lg:pt-20"
       >
         <div className="pointer-events-none absolute inset-0 overflow-hidden">
           <div className="absolute left-1/2 top-0 h-[600px] w-[800px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/8 blur-[120px]" />
