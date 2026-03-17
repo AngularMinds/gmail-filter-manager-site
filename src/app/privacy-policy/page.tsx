@@ -171,7 +171,7 @@ export default function PrivacyPolicy() {
             Gmail Filter Manager is open-source software licensed under the
             MIT License. The complete source code is available on{" "}
             <a
-              href="https://github.com/syedazharmbnr1/gmail-filter-manager"
+              href="https://github.com/AngularMinds/gmail-filter-manager"
               target="_blank"
               rel="noopener noreferrer"
               className="text-accent-light underline decoration-accent/30 underline-offset-2 transition-colors hover:text-accent"
@@ -202,7 +202,7 @@ export default function PrivacyPolicy() {
             If you have questions about this privacy policy, you can open an
             issue on our{" "}
             <a
-              href="https://github.com/syedazharmbnr1/gmail-filter-manager/issues"
+              href="https://github.com/AngularMinds/gmail-filter-manager/issues"
               target="_blank"
               rel="noopener noreferrer"
               className="text-accent-light underline decoration-accent/30 underline-offset-2 transition-colors hover:text-accent"

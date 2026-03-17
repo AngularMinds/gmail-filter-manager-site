@@ -105,7 +105,7 @@ function Header() {
         <div className="flex items-center gap-2">
           <ThemeToggle />
           <Link
-            href="https://github.com/syedazharmbnr1/gmail-filter-manager"
+            href="https://github.com/AngularMinds/gmail-filter-manager"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden items-center gap-2 rounded-lg border border-border px-4 py-2 text-sm text-muted transition-colors hover:border-border-light hover:text-foreground sm:flex"
@@ -203,7 +203,7 @@ function Footer() {
             <ul className="space-y-2.5">
               <li>
                 <a
-                  href="https://github.com/syedazharmbnr1/gmail-filter-manager"
+                  href="https://github.com/AngularMinds/gmail-filter-manager"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-sm text-muted transition-colors hover:text-foreground"
@@ -245,7 +245,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://github.com/syedazharmbnr1/gmail-filter-manager/issues"
+                  href="https://github.com/AngularMinds/gmail-filter-manager/issues"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-sm text-muted transition-colors hover:text-foreground"

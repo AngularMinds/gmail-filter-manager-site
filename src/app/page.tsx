@@ -547,7 +547,7 @@ export default function Home() {
               Add to Chrome — It&apos;s Free
             </a>
             <a
-              href="https://github.com/syedazharmbnr1/gmail-filter-manager"
+              href="https://github.com/AngularMinds/gmail-filter-manager"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-xl border border-border px-7 py-3.5 text-sm font-semibold text-foreground transition-all hover:border-border-light hover:bg-surface-light"
