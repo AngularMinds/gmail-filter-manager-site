@@ -50,6 +50,10 @@ export const metadata: Metadata = {
     description:
       "Select emails directly in your inbox, pick an action, and create permanent Gmail filters in one click. Free, open-source, and private.",
   },
+  icons: {
+    icon: "/logo.svg",
+    apple: "/logo.svg",
+  },
   robots: {
     index: true,
     follow: true,
@@ -79,20 +83,7 @@ function Header() {
     <header className="fixed top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
         <Link href="/" className="flex items-center gap-2.5">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-accent to-accent-light">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="white"
-              strokeWidth="2.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z" />
-            </svg>
-          </div>
+          <img src="/logo.svg" alt="Gmail Filter Manager logo" width={28} height={28} />
           <span className="text-sm font-semibold tracking-tight text-foreground">
             Gmail Filter Manager
           </span>
@@ -141,20 +132,7 @@ function Footer() {
         <div className="grid gap-12 md:grid-cols-3">
           <div className="space-y-4">
             <div className="flex items-center gap-2.5">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-accent to-accent-light">
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="white"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z" />
-                </svg>
-              </div>
+              <img src="/logo.svg" alt="Gmail Filter Manager logo" width={28} height={28} />
               <span className="text-sm font-semibold tracking-tight text-foreground">
                 Gmail Filter Manager
               </span>

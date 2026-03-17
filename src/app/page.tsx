@@ -508,24 +508,29 @@ export default function Home() {
           <div className="absolute left-1/2 top-0 h-[600px] w-[800px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/8 blur-[120px]" />
         </div>
 
-        <div className="relative mx-auto max-w-3xl text-center">
-          <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-accent/20 bg-accent/5 px-4 py-1.5 text-sm text-accent-light">
-            <IconFilter className="h-3.5 w-3.5" />
-            Free &amp; open-source Chrome extension
-          </div>
-
+        <div className="relative mx-auto max-w-4xl text-center">
           <h1 className="mb-3 text-4xl font-bold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-            Gmail Filter Manager
+            Filter Manager for Gmail
           </h1>
 
-          <p className="mx-auto mb-6 text-xl font-medium sm:text-2xl">
+          <p className="mx-auto mb-10 text-xl font-medium sm:text-2xl">
             Bulk email filtering,{" "}
             <span className="bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent">
               simplified
             </span>
           </p>
 
-          <p className="mx-auto mb-10 max-w-xl text-base leading-relaxed text-muted sm:text-lg">
+          <div className="mb-10 overflow-hidden rounded-xl border border-border bg-surface shadow-2xl shadow-black/10">
+            <img
+              src="/gmail-filter-manager.gif"
+              alt="Gmail Filter Manager in action — select emails, pick an action, and create filters in one click"
+              width={1200}
+              height={750}
+              className="w-full"
+            />
+          </div>
+
+          <p className="mx-auto mb-8 max-w-xl text-base leading-relaxed text-muted sm:text-lg">
             Select multiple emails in Gmail, pick an action, and create a filter
             for every sender in one click. No settings pages, no repetition.
           </p>
