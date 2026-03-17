@@ -75,7 +75,7 @@ function Header() {
   const navLinks = [
     { href: "/#features", label: "Features" },
     { href: "/#how-it-works", label: "How It Works" },
-    { href: "/#privacy", label: "Privacy" },
+    { href: "/#privacy", label: "Your Data" },
     { href: "/#faq", label: "FAQ" },
     { href: "/blog", label: "Blog" },
   ];
@@ -168,7 +168,7 @@ function Footer() {
                   href="/#privacy"
                   className="text-sm text-muted transition-colors hover:text-foreground"
                 >
-                  Privacy
+                  Your Data
                 </Link>
               </li>
               <li>
