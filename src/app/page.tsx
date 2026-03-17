@@ -511,7 +511,7 @@ export default function Home() {
 
         <div className="relative mx-auto max-w-4xl text-center">
           <h1 className="mb-3 text-4xl font-bold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-            Filter Manager for Gmail
+            Quick Filtering for Gmail
           </h1>
 
           <p className="mx-auto mb-10 text-xl font-medium sm:text-2xl">
