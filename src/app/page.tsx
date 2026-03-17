@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 
 /* ─────────────── Icon helpers ─────────────── */
@@ -521,12 +522,13 @@ export default function Home() {
           </p>
 
           <div className="mb-10 overflow-hidden rounded-xl border border-border bg-surface shadow-2xl shadow-black/10">
-            <img
+            <Image
               src="/gmail-filter-manager.gif"
               alt="Gmail Filter Manager in action — select emails, pick an action, and create filters in one click"
               width={1200}
               height={750}
               className="w-full"
+              unoptimized
             />
           </div>
 

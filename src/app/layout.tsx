@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Image from "next/image";
 import Link from "next/link";
 import { ThemeToggle } from "@/components/theme-toggle";
 import "./globals.css";
@@ -83,7 +84,7 @@ function Header() {
     <header className="fixed top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
         <Link href="/" className="flex items-center gap-2.5">
-          <img src="/logo.svg" alt="Gmail Filter Manager logo" width={28} height={28} />
+          <Image src="/logo.svg" alt="Gmail Filter Manager logo" width={28} height={28} />
           <span className="text-sm font-semibold tracking-tight text-foreground">
             Gmail Filter Manager
           </span>
@@ -132,7 +133,7 @@ function Footer() {
         <div className="grid gap-12 md:grid-cols-3">
           <div className="space-y-4">
             <div className="flex items-center gap-2.5">
-              <img src="/logo.svg" alt="Gmail Filter Manager logo" width={28} height={28} />
+              <Image src="/logo.svg" alt="Gmail Filter Manager logo" width={28} height={28} />
               <span className="text-sm font-semibold tracking-tight text-foreground">
                 Gmail Filter Manager
               </span>
